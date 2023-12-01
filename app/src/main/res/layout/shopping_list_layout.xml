@@ -1,0 +1,123 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+<ScrollView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:fillViewport="true">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".CreateActivity">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <androidx.recyclerview.widget.RecyclerView
+                android:id="@+id/recyclerView"
+                android:layout_width="match_parent"
+                android:layout_height="362dp"
+                android:layout_marginTop="5dp" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="vertical">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="wrap_content"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/addItemEditText"
+                        android:layout_width="200dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:hint="Item to be added"
+                        android:minHeight="48dp" />
+
+                    <Button
+                        android:id="@+id/addButton"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:layout_marginTop="50dp"
+                        android:text="ADD" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/idChangeEditText"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:hint="ID"
+                        android:minHeight="48dp" />
+
+                    <EditText
+                        android:id="@+id/changeEditText"
+                        android:layout_width="150dp"
+                        android:layout_height="wrap_content"
+                        android:hint="New name"
+                        android:minHeight="48dp" />
+
+                    <Button
+                        android:id="@+id/changeButton"
+                        android:layout_width="100dp"
+                        android:layout_height="wrap_content"
+                        android:text="CHANGE" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <EditText
+                        android:id="@+id/idDeleteEditText"
+                        android:layout_width="50dp"
+                        android:layout_height="wrap_content"
+                        android:hint="ID"
+                        android:minHeight="48dp" />
+
+                    <Button
+                        android:id="@+id/deleteButton"
+                        android:layout_width="250dp"
+                        android:layout_height="wrap_content"
+                        android:text="DELETE" />
+
+                </LinearLayout>
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:gravity="center|top"
+                    android:orientation="horizontal">
+
+                    <Button
+                        android:id="@+id/exitButton"
+                        android:layout_width="300dp"
+                        android:layout_height="wrap_content"
+                        android:text="EXIT" />
+                </LinearLayout>
+
+            </LinearLayout>
+        </LinearLayout>
+
+
+    </RelativeLayout>
+
+</ScrollView>
