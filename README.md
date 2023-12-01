@@ -1,6 +1,6 @@
-# HSE-ANDROID-LAB2
+![image](https://github.com/Sparou/HSE-ANDROID-LAB2/assets/106825713/ec59cf7d-ef71-44a7-96a3-42f344e19555)# HSE-ANDROID-LAB2
 
-> Цель работы: 
+> Цель работы: Приложение для списка покупок. Приложение должно позволять пользователю создавать и редактировать текстовый список покупок. Желательно использовать RecyclerView.
 
 ## Задачи и процесс их выполнения 
 
@@ -10,4 +10,4 @@
 
 ## Главная активность
 
-s
+![image](https://github.com/Sparou/HSE-ANDROID-LAB2/assets/106825713/3f52f874-6269-4d12-bc71-ecaaf4f2af7e)
